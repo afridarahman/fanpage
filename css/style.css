@@ -17,3 +17,28 @@ a {
     width: 30px;
     margin: 15px;
 }
+.header {
+    display:flex;
+    justify-content:center;
+}
+.navbar {
+    display:flex;
+    justify-content:space-around;
+}
+.social {
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+}
+#copyright {
+    justify-content:center;
+    display:flex;
+    width:100%;
+}
+.gallery {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    width:500px;
+    height:500px;
+}
