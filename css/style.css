@@ -4,10 +4,15 @@ html {
 
 body {
     height: 100%;
+    background-color:black;
     
 }
 a {
     text-decoration: none;
+    color:white;
+}
+p {
+    color: white;
 }
 
 .main {
@@ -20,10 +25,17 @@ a {
 .header {
     display:flex;
     justify-content:center;
+    font-size: 45px;
+    color:white;
+    font-family: 'Faster One', cursive;
 }
 .navbar {
     display:flex;
     justify-content:space-around;
+    background-color:#2b2929;
+    padding:15px;
+    font-size:20px;
+    font-family: 'Creepster', cursive;
 }
 .social {
     display:flex;
@@ -35,10 +47,67 @@ a {
     display:flex;
     width:100%;
 }
-.gallery {
+.thumbnail {
     display:flex;
     justify-content:space-around;
     flex-wrap:wrap;
-    width:500px;
-    height:500px;
 }
+#thumbnail-image {
+    width:300px;
+    height:300px;
+    margin:10px;
+    border:2px white solid;
+}
+.thumbnail-image2 {
+    width:500px;
+    height:300px;
+    margin:10px;
+    border:2px white solid;
+}
+.thumbnail-image3 {
+    width:450px;
+    height:300px;
+    margin:10px;
+    border:2px white solid;
+}
+#thumbnail-original {
+    width:250px;
+    height:300px;
+    margin:10px;
+    border:2px white solid;
+}
+.rightPane {
+    display:flex;
+    width:60%;
+    text-align:center;
+    margin:20px;
+    margin-top:100px;
+    font-size:23px;
+    font-family: 'Special Elite', cursive;
+}
+.leftPane {
+    display:flex;
+    width:40%;
+    justify-content:center;
+    margin-bottom:30px;
+}
+.aboutMain{
+    width:100%;
+    display:flex;
+}
+#beebo {
+    justify-content:center;
+    display:flex;
+}
+#beeboHeader{
+ display:flex;
+ justify-content:center;
+ width:100%;
+ color:white;
+ font-family: 'Contrail One', cursive;
+}
+.footer {
+    background-color:#2b2929;
+}
+
+
